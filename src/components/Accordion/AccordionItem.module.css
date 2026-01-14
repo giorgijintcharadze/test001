@@ -1,0 +1,39 @@
+.item {
+  border-bottom: 1px solid #ddd;
+  width: 700px;
+}
+
+.question {
+  width: 100%;
+  padding: 16px;
+  text-align: left;
+  background: #f9f9f9;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.answer {
+  padding: 16px;
+  background: #fff;
+  color: #444;
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
